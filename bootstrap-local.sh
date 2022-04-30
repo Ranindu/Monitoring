@@ -35,7 +35,7 @@ Windows()
   --for=condition=ready pod \
   --selector=app.kubernetes.io/component=controller \
   --timeout=90s
-  kustomize build . | kubectl apply -f -
+  kustomize build ./cluster | kubectl apply -f -
   minikube addons list
 }
 
