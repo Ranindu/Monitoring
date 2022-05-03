@@ -6,3 +6,4 @@ resources:
   - grafana
   - state-metrics
   - node-exporter
+  - alertManager
